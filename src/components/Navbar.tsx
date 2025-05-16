@@ -1,16 +1,21 @@
-import React from 'react'
+import React from 'react';
 
-const Navbar = ({ activePage, setActivePage }) => (
+interface NavbarProps {
+  activePage: string;
+  setActivePage: (page: string) => void;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ activePage, setActivePage }) => (
   <nav className="bg-primary text-white shadow-md">
     <div className="container mx-auto px-4 py-4 flex justify-between items-center">
       <div
         className="text-2xl font-bold cursor-pointer"
-        onClick={() => setActivePage('home')}
+        onClick={() => setActivePage('projects')}
       >
-        MyPortfolio
+        Maret Rudin-Aulenbach
       </div>
       <div className="space-x-6">
-        {['home', 'about', 'projects'].map(page => (
+        {['projects', 'about'].map(page => (
           <button
             key={page}
             onClick={() => setActivePage(page)}
@@ -24,6 +29,6 @@ const Navbar = ({ activePage, setActivePage }) => (
       </div>
     </div>
   </nav>
-)
+);
 
-export default Navbar
+export default Navbar;
