@@ -11,6 +11,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   githubLink, 
   liveLink, 
   image, 
+  year,
+  techStack,
   setBackgroundImage 
 }) => {
   const handleMouseEnter = () => {
@@ -23,10 +25,17 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
   return (
     <div 
-      className="border rounded-lg p-4 h-64 flex flex-col transition-all duration-300 hover:shadow-lg hover:scale-105 bg-white relative z-10"
+      className="border rounded-lg p-4 h-auto flex flex-col transition-all duration-300 hover:shadow-lg hover:scale-105 bg-white relative z-10"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
+      {/* Year badge */}
+      {year && (
+        <div className="absolute -top-3 -right-3 bg-highlight text-white text-xs font-bold rounded-full px-2 py-1 z-10">
+          {year}
+        </div>
+      )}
+      
       {image && (
         <img
           src={image}
@@ -35,9 +44,25 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         />
       )}
       <h3 className="text-lg font-semibold mb-1">{title}</h3>
-      <p className="text-sm mb-auto line-clamp-3">{description}</p>
+      <p className="text-sm mb-3 line-clamp-3">{description}</p>
       
-      <div className="mt-2 flex flex-wrap gap-2">
+      {/* Tech stack section */}
+      {techStack && techStack.length > 0 && (
+        <div className="mb-3">
+          <div className="flex flex-wrap gap-1">
+            {techStack.map((tech, index) => (
+              <span 
+                key={index}
+                className="bg-gray-100 text-gray-800 text-xs px-1.5 py-0.5 rounded"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+      
+      <div className="mt-auto flex flex-wrap gap-2">
         {githubLink && (
           <a 
             href={githubLink} 

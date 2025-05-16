@@ -8,56 +8,74 @@ const projects: Project[] = [
     title: 'The Adventurer\'s Terminal',
     description: 'An immersive, text-based RPG experience powered by AI that lets you create characters, explore worlds, and forge your own adventure narrative.',
     githubLink: 'https://github.com/MaretRudAul/The_Adventurers_Terminal',
-    image: '/src/assets/images/the_adventurers_terminal.png'
+    image: '/src/assets/images/the_adventurers_terminal.png',
+    year: 'Year',
+    techStack: ['Tech', 'Stack']
   },
   {
     title: 'Career Clarifier',
     description: 'An online business that helps college students and graduates identify their best career options.',
     liveLink: 'https://careerclarifier.com',
-    image: '/src/assets/images/careerclarifier.png'
+    image: '/src/assets/images/careerclarifier.png',
+    year: 'Year',
+    techStack: ['Tech', 'Stack']
   },
   {
     title: 'Stellaris Mod',
     description: '',
     githubLink: '',
-    liveLink: ''
+    liveLink: '',
+    year: 'Year',
+    techStack: ['Tech', 'Stack']
   },
   {
     title: 'A Guide to Time Travel',
     description: '',
     githubLink: '',
-    liveLink: ''
+    liveLink: '',
+    year: 'Year',
+    techStack: ['Tech', 'Stack']
   },
   {
     title: 'Deep SVDD',
     description: '',
     githubLink: '',
-    liveLink: ''
+    liveLink: '',
+    year: 'Year',
+    techStack: ['Tech', 'Stack']
   },
   {
     title: 'Vibe Chess',
     description: '',
     githubLink: '',
     liveLink: '',
-    image: ''
+    image: '',
+    year: 'Year',
+    techStack: ['Tech', 'Stack']
   },
   {
     title: 'CS 3891 Final Project',
     description: '',
     githubLink: '',
-    liveLink: ''
+    liveLink: '',
+    year: 'Year',
+    techStack: ['Tech', 'Stack']
   },
   {
     title: 'CS 3892 Final Project',
     description: '',
     githubLink: '',
-    liveLink: ''
+    liveLink: '',
+    year: 'Year',
+    techStack: ['Tech', 'Stack']
   },
   {
     title: 'Cybersecurity Final Paper',
     description: '',
     githubLink: '',
-    liveLink: ''
+    liveLink: '',
+    year: 'Year',
+    techStack: ['Tech', 'Stack']
   }
 ];
 

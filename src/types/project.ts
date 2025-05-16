@@ -4,4 +4,6 @@ export interface Project {
   githubLink?: string;
   liveLink?: string;
   image?: string;
+  year?: string; // Year(s) worked on or completed
+  techStack?: string[]; // Array of technologies used
 }
