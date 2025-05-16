@@ -22,9 +22,10 @@ const projects: Project[] = [
   },
   {
     title: 'A Guide to Time Travel',
-    description: '',
-    githubLink: '',
+    description: 'A website that enables users to allege that they\'ve time traveled to the past with a message from the future.',
+    githubLink: 'https://github.com/MaretRudAul/Time_Travelor_Website',
     liveLink: '',
+    image: '/src/assets/images/time_travel.png',
     year: '2024',
     techStack: ['Typescript', 'Angular', 'Tailwind', 'Django', 'Redis', 'Docker', 'SQL', 'websockets']
   },
@@ -39,7 +40,7 @@ const projects: Project[] = [
   {
     title: 'FinishLine',
     description: '•	A website that scrapes anchorlink.vanderbilt.edu daily to compile and present career opportunities for students.',
-    githubLink: 'github.com/MaretRudAul/FinishLine',
+    githubLink: 'https://github.com/MaretRudAul/FinishLine',
     liveLink: '',
     year: '2024',
     techStack: ['React', 'Flask', 'SQL', 'Selenium']
