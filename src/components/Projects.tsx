@@ -9,27 +9,43 @@ const projects: Project[] = [
     description: 'An immersive, text-based RPG experience powered by AI that lets you create characters, explore worlds, and forge your own adventure narrative.',
     githubLink: 'https://github.com/MaretRudAul/The_Adventurers_Terminal',
     image: '/src/assets/images/the_adventurers_terminal.png',
-    year: 'Year',
-    techStack: ['Tech', 'Stack']
+    year: '2025',
+    techStack: ['Python', 'OpenAI API', 'Pydantic', 'FAISS', 'sentence transformers', 'JSON']
   },
   {
     title: 'Career Clarifier',
     description: 'An online business that helps college students and graduates identify their best career options.',
     liveLink: 'https://careerclarifier.com',
     image: '/src/assets/images/careerclarifier.png',
-    year: 'Year',
-    techStack: ['Tech', 'Stack']
-  },
-  {
-    title: 'Stellaris Mod',
-    description: '',
-    githubLink: '',
-    liveLink: '',
-    year: 'Year',
-    techStack: ['Tech', 'Stack']
+    year: '2020-Present',
+    techStack: ['Python', 'Flask', 'SQL', 'Gunicorn', 'Redis', 'WKHTMLToPDF', 'Celery', 'JS', 'Selenium', 'NGINX']
   },
   {
     title: 'A Guide to Time Travel',
+    description: '',
+    githubLink: '',
+    liveLink: '',
+    year: '2024',
+    techStack: ['Typescript', 'Angular', 'Tailwind', 'Django', 'Redis', 'Docker', 'SQL', 'websockets']
+  },
+  {
+    title: 'Portfolio Website',
+    description: 'A personal portfolio website showcasing my projects and skills.',
+    githubLink: '',
+    liveLink: '',
+    year: '2025',
+    techStack: ['React', 'Tailwind CSS', 'TypeScript', 'Vite', 'Vercel'],
+  },
+  {
+    title: 'FinishLine',
+    description: '•	A website that scrapes anchorlink.vanderbilt.edu daily to compile and present career opportunities for students.',
+    githubLink: 'github.com/MaretRudAul/FinishLine',
+    liveLink: '',
+    year: '2024',
+    techStack: ['React', 'Flask', 'SQL', 'Selenium']
+  },
+  {
+    title: 'Stellaris Mod',
     description: '',
     githubLink: '',
     liveLink: '',
