@@ -3,9 +3,10 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './components/About';
 import Projects from './components/Projects';
+import DragonScroll from './components/animations/DragonScroll';
 
 const App: React.FC = () => {
-  const [activePage, setActivePage] = useState('projects'); // Changed to 'projects' as default
+  const [activePage, setActivePage] = useState('projects'); // Projects as default
   
   return (
     <div className="flex flex-col min-h-screen">
@@ -15,6 +16,7 @@ const App: React.FC = () => {
         {activePage === 'projects' && <Projects />}
       </main>
       <Footer />
+      <DragonScroll />
     </div>
   );
 };

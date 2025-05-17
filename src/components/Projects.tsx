@@ -35,7 +35,7 @@ const projects: Project[] = [
     githubLink: '',
     liveLink: '',
     year: '2025',
-    techStack: ['React', 'Tailwind CSS', 'TypeScript', 'Vite', 'Vercel'],
+    techStack: ['React', 'Tailwind CSS', 'TypeScript', 'Vite', 'Vercel', 'SVG'],
   },
   {
     title: 'FinishLine',
