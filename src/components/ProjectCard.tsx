@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Project } from '../types/project';
 
 interface ProjectCardProps extends Project {
@@ -37,12 +38,17 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       )}
       
       {image && (
-        <img
-          src={image}
-          alt={title}
-          className="w-full h-24 object-cover rounded-md mb-2"
-        />
+        <div className="w-full h-24 relative rounded-md mb-2 overflow-hidden">
+          <Image
+            src={image}
+            alt={title}
+            fill
+            sizes="(max-width: 768px) 100vw, 33vw"
+            style={{ objectFit: 'cover' }}
+          />
+        </div>
       )}
+      
       <h3 className="text-lg font-semibold mb-1">{title}</h3>
       <p className="text-sm mb-3 line-clamp-3">{description}</p>
       

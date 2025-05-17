@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 import ProjectCard from './ProjectCard';
 import TypeWriter from './animations/TypeWriter';
 import { Project } from '../types/project';
@@ -8,7 +9,7 @@ const projects: Project[] = [
     title: 'The Adventurer\'s Terminal',
     description: 'An immersive, text-based RPG experience powered by AI that lets you create characters, explore worlds, and forge your own adventure narrative.',
     githubLink: 'https://github.com/MaretRudAul/The_Adventurers_Terminal',
-    image: '/src/assets/images/the_adventurers_terminal.png',
+    image: '/images/the_adventurers_terminal.png',
     year: '2025',
     techStack: ['Python', 'OpenAI API', 'Pydantic', 'FAISS', 'sentence transformers', 'JSON']
   },
@@ -16,7 +17,7 @@ const projects: Project[] = [
     title: 'Career Clarifier',
     description: 'An online business that helps college students and graduates identify their best career options.',
     liveLink: 'https://careerclarifier.com',
-    image: '/src/assets/images/careerclarifier.png',
+    image: '/images/careerclarifier.png',
     year: '2020-Present',
     techStack: ['Python', 'Flask', 'SQL', 'Gunicorn', 'Redis', 'WKHTMLToPDF', 'Celery', 'JS', 'Selenium', 'NGINX']
   },

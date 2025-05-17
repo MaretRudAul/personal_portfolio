@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import TypeWriter from './animations/TypeWriter';
 
 const About: React.FC = () => (
@@ -12,11 +13,14 @@ const About: React.FC = () => (
       
       {/* Profile Photo */}
       <div className="my-6 flex justify-center">
-        <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-accent shadow-lg">
-          <img 
-            src="/src/assets/images/profile.png" 
+        <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-accent shadow-lg relative">
+          <Image 
+            src="/images/profile.png" 
             alt="Maret Rudin-Aulenbach" 
-            className="w-full h-full object-cover"
+            fill
+            sizes="160px"
+            style={{ objectFit: 'cover' }}
+            priority
           />
         </div>
       </div>
@@ -58,7 +62,7 @@ const About: React.FC = () => (
         </a>
         
         <a 
-          href="/src/assets/files/Maret_Rudin_Aulenbach_Resume.pdf" 
+          href="/files/Maret_Rudin_Aulenbach_Resume.pdf" 
           download
           className="bg-highlight text-white py-2 px-4 rounded hover:bg-highlight/90 transition flex items-center"
         >
