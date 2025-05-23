@@ -12,7 +12,7 @@ const StructuredData: React.FC<StructuredDataProps> = ({
   name = "Maret Rudin-Aulenbach",
   jobTitle = "Software Engineer",
   url = "https://maretrudinaulenbach.com",
-  imageUrl = "https://maretrudinaulenbach.com/images/profile.png",
+  imageUrl = "https://maretrudinaulenbach.com/images/profile-clean.png",
   sameAs = [
     "https://github.com/MaretRudAul",
     "https://linkedin.com/in/maret-ra",
