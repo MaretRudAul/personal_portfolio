@@ -18,6 +18,7 @@ const About: React.FC = () => (
             src="/images/profile.png" 
             alt="Maret Rudin-Aulenbach" 
             fill
+            unoptimized
             sizes="160px"
             style={{ objectFit: 'cover' }}
             priority
