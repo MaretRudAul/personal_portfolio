@@ -6,14 +6,6 @@ import { Project } from '../types/project';
 
 const projects: Project[] = [
   {
-    title: 'The Adventurer\'s Terminal',
-    description: 'An immersive, text-based RPG experience powered by AI that lets you create characters, explore worlds, and forge your own adventure narrative.',
-    githubLink: 'https://github.com/MaretRudAul/The_Adventurers_Terminal',
-    image: '/images/the_adventurers_terminal.png',
-    year: '2025',
-    techStack: ['Python', 'OpenAI API', 'Pydantic', 'FAISS', 'sentence transformers', 'JSON']
-  },
-  {
     title: 'Career Clarifier',
     description: 'An online business that helps college students and graduates identify their best career options.',
     liveLink: 'https://careerclarifier.com',
@@ -22,13 +14,30 @@ const projects: Project[] = [
     techStack: ['Python', 'Flask', 'SQL', 'Gunicorn', 'Redis', 'WKHTMLToPDF', 'Celery', 'JS', 'Selenium', 'NGINX']
   },
   {
+    title: 'Autonomous Vehicle Simulation',
+    description: 'Simulated an autonomous vehicle using Dijkstra\'s for routing, pure pursuit controller + modifications for decision making, an EKF with GPU + IMU data for localization, and camrera frame bounding boxes + EKF for perception. 2nd place in class competition.',
+    githubLink: '',
+    liveLink: 'https://www.youtube.com/watch?v=31X2WBa5Lyo',
+    image: '/images/cs3892.png',
+    year: '2025',
+    techStack: ['Julia']
+  },
+  {
     title: 'A Guide to Time Travel',
     description: 'A website that enables users to allege that they\'ve time traveled to the past with a message from the future.',
     githubLink: 'https://github.com/MaretRudAul/Time_Travelor_Website',
     liveLink: '',
-    image: '/src/assets/images/time_travel.png',
+    image: '/images/a_guide_to_time_travel.png',
     year: '2024',
     techStack: ['Typescript', 'Angular', 'Tailwind', 'Django', 'Redis', 'Docker', 'SQL', 'websockets']
+  },
+  {
+    title: 'The Adventurer\'s Terminal',
+    description: 'An immersive, text-based RPG experience powered by AI that lets you create characters, explore worlds, and forge your own adventure narrative.',
+    githubLink: 'https://github.com/MaretRudAul/The_Adventurers_Terminal',
+    image: '/images/the_adventurers_terminal.png',
+    year: '2025',
+    techStack: ['Python', 'OpenAI API', 'Pydantic', 'FAISS', 'sentence transformers', 'JSON']
   },
   {
     title: 'Portfolio Website',
@@ -81,15 +90,7 @@ const projects: Project[] = [
   //   year: 'Year',
   //   techStack: ['Tech', 'Stack']
   // },
-  {
-    title: 'Autonomous Vehicle Simulation',
-    description: 'Simulated an autonomous vehicle using Dijkstra\'s for routing, pure pursuit controller + modifications for decision making, an EKF with GPU + IMU data for localization, and camrera frame bounding boxes + EKF for perception. 2nd place in class competition.',
-    githubLink: '',
-    liveLink: 'https://www.youtube.com/watch?v=31X2WBa5Lyo',
-    image: '/images/cs3892.png',
-    year: '2025',
-    techStack: ['Julia']
-  },
+  
   // {
   //   title: 'Cybersecurity Final Paper',
   //   description: '',
