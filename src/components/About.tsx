@@ -14,13 +14,12 @@ const About: React.FC = () => (
       {/* Profile Photo */}
       <div className="my-6 flex justify-center">
         <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-accent shadow-lg relative">
-          <Image 
-            src="/images/profile.png" 
-            alt="Maret Rudin-Aulenbach" 
-            fill
-            sizes="160px"
-            style={{ objectFit: 'cover' }}
-            priority
+          <Image
+            src="https://your-deployment-url.vercel.app/images/profile.png"
+            alt='Maret Rudin-Aulenbach'
+            width={160}
+            height={160}
+            unoptimized
           />
         </div>
       </div>
