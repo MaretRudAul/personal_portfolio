@@ -1,29 +1,16 @@
-import { useState } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import About from '../components/About';
-import Projects from '../components/Projects';
+// pages/index.tsx
+import { NextPage } from 'next';
+import Layout from '../components/Layout';
 import SEO from '../components/SEO';
-import StructuredData from '../components/StructuredData';
+import Projects from '../components/Projects';
 
-const Home = () => {
-  const [activePage, setActivePage] = useState('projects'); // Projects as default
-  
+const HomePage: NextPage = () => {
   return (
-    <>
-      <SEO />
-      <StructuredData />
-      <div className="flex flex-col min-h-screen">
-        <Navbar activePage={activePage} setActivePage={setActivePage} />
-        <main className="flex-grow container mx-auto px-4 py-8">
-          {activePage === 'about' && <About />}
-          {activePage === 'projects' && <Projects />}
-        </main>
-        <Footer />
-        {/* DragonScroll temporarily disabled */}
-      </div>
-    </>
+    <Layout>
+      <SEO title="Maret Rudin-Aulenbach | Projects" />
+      <Projects />
+    </Layout>
   );
 };
 
-export default Home;
+export default HomePage;

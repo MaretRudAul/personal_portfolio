@@ -336,7 +336,15 @@ const About: React.FC = () => (
         <p className="mt-4">
           I'm also passionate about participating in my community. As a writer for Vanderbilt's satire paper, 
           The Slant, I blend humor with insights about technology, campus life, politics, sports, and more. 
-          Check out my articles <a href='https://vanderbiltslant.com/author/maret/' target='_blank'>here</a>. I also help plan events, such as a tv screen "portal"
+          Check out my articles{' '}
+          <a 
+            href="https://vanderbiltslant.com/author/maret/" 
+            target="_blank"
+            rel="noopener noreferrer" 
+            className="text-blue-500 hover:text-blue-700"
+          >
+            here
+          </a>. I also help plan events, such as a tv screen "portal"
           between the Vanderbilt and Belmont campuses (still working on making that happen!). 
         </p>
         
