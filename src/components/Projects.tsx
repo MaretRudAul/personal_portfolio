@@ -35,66 +35,69 @@ const projects: Project[] = [
     description: 'A personal portfolio website showcasing my projects and skills.',
     githubLink: '',
     liveLink: '',
+    image: '/images/portfolio_website.png',
     year: '2025',
-    techStack: ['React', 'Tailwind CSS', 'TypeScript', 'Vite', 'Vercel', 'SVG'],
+    techStack: ['NextJS', 'React', 'Tailwind CSS', 'TypeScript', 'Vite', 'Vercel', 'SVG'],
   },
   {
     title: 'FinishLine',
-    description: '•	A website that scrapes anchorlink.vanderbilt.edu daily to compile and present career opportunities for students.',
+    description: 'A website that scrapes anchorlink.vanderbilt.edu daily to compile and present career opportunities for students.',
     githubLink: 'https://github.com/MaretRudAul/FinishLine',
     liveLink: '',
     year: '2024',
     techStack: ['React', 'Flask', 'SQL', 'Selenium']
   },
   {
-    title: 'Stellaris Mod',
-    description: '',
-    githubLink: '',
-    liveLink: '',
-    year: 'Year',
-    techStack: ['Tech', 'Stack']
+    title: 'I am the Senate!',
+    description: 'A Stellaris mod that enables players to take control of their interplanetary federation, Star Wars style. 5 star rating and ~5,000 users at its peak.',
+    githubLink: 'https://github.com/MaretRudAul/i_am_the_senate/tree/main',
+    liveLink: 'https://steamcommunity.com/sharedfiles/filedetails/?id=2087122974',
+    image: '/images/i_am_the_senate.jpg',
+    year: '2020',
+    techStack: ['Paradox Interactive custom scripting language']
   },
+  // {
+  //   title: 'Deep SVDD',
+  //   description: '',
+  //   githubLink: '',
+  //   liveLink: '',
+  //   year: 'Year',
+  //   techStack: ['Tech', 'Stack']
+  // },
+  // {
+  //   title: 'Vibe Chess',
+  //   description: '',
+  //   githubLink: '',
+  //   liveLink: '',
+  //   image: '',
+  //   year: 'Year',
+  //   techStack: ['Tech', 'Stack']
+  // },
+  // {
+  //   title: 'CS 3891 Final Project',
+  //   description: '',
+  //   githubLink: '',
+  //   liveLink: '',
+  //   year: 'Year',
+  //   techStack: ['Tech', 'Stack']
+  // },
   {
-    title: 'Deep SVDD',
-    description: '',
+    title: 'Autonomous Vehicle Simulation',
+    description: 'Simulated an autonomous vehicle using Dijkstra\'s for routing, pure pursuit controller + modifications for decision making, an EKF with GPU + IMU data for localization, and camrera frame bounding boxes + EKF for perception. 2nd place in class competition.',
     githubLink: '',
-    liveLink: '',
-    year: 'Year',
-    techStack: ['Tech', 'Stack']
+    liveLink: 'https://www.youtube.com/watch?v=31X2WBa5Lyo',
+    image: '/images/cs3892.png',
+    year: '2025',
+    techStack: ['Julia']
   },
-  {
-    title: 'Vibe Chess',
-    description: '',
-    githubLink: '',
-    liveLink: '',
-    image: '',
-    year: 'Year',
-    techStack: ['Tech', 'Stack']
-  },
-  {
-    title: 'CS 3891 Final Project',
-    description: '',
-    githubLink: '',
-    liveLink: '',
-    year: 'Year',
-    techStack: ['Tech', 'Stack']
-  },
-  {
-    title: 'CS 3892 Final Project',
-    description: '',
-    githubLink: '',
-    liveLink: '',
-    year: 'Year',
-    techStack: ['Tech', 'Stack']
-  },
-  {
-    title: 'Cybersecurity Final Paper',
-    description: '',
-    githubLink: '',
-    liveLink: '',
-    year: 'Year',
-    techStack: ['Tech', 'Stack']
-  }
+  // {
+  //   title: 'Cybersecurity Final Paper',
+  //   description: '',
+  //   githubLink: '',
+  //   liveLink: '',
+  //   year: 'Year',
+  //   techStack: ['Tech', 'Stack']
+  // }
 ];
 
 const Projects: React.FC = () => {
