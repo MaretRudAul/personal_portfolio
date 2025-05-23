@@ -17,10 +17,9 @@ const About: React.FC = () => (
           <Image 
             src="/images/profile.png" 
             alt="Maret Rudin-Aulenbach" 
-            fill
-            unoptimized
-            sizes="160px"
-            style={{ objectFit: 'cover' }}
+            width={160}
+            height={160}
+            style={{ objectFit: 'cover', borderRadius: '9999px' }} // rounded-full
             priority
           />
         </div>
