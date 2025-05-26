@@ -29,7 +29,7 @@ const projects: Project[] = [
     liveLink: '',
     image: '/images/antichess.png',
     year: '2025',
-    techStack: ['Julia']
+    techStack: ['PyTorch', 'Python', 'Reinforcement Learning (Stable-Baselines3)', 'Gymnasium', 'Convolutional Neural Networks', 'Proximal Policy Optimization']
   },
   {
     title: 'A Guide to Time Travel',
