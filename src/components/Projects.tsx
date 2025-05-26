@@ -20,11 +20,11 @@ const projects: Project[] = [
     liveLink: '',
     image: '/images/antichess.png',
     year: '2025',
-    techStack: ['PyTorch', 'Python', 'Reinforcement Learning (Stable-Baselines3)', 'Gymnasium', 'Convolutional Neural Networks', 'Proximal Policy Optimization']
+    techStack: ['PyTorch', 'Reinforcement Learning (Stable-Baselines3)', 'Gymnasium', 'Convolutional Neural Networks', 'Proximal Policy Optimization', 'Python', ]
   },
   {
     title: 'Autonomous Vehicle Simulation',
-    description: 'Simulated an autonomous vehicle using Dijkstra\'s for routing, pure pursuit controller + modifications for decision making, an EKF with GPU + IMU data for localization, and camrera frame bounding boxes + EKF for perception. 2nd place in class competition.',
+    description: 'Simulated an autonomous vehicle using Dijkstra\'s for routing, a modified pure pursuit controller, an EKF with GPU + IMU data for localization, and camrera frame bounding boxes + EKF for perception. 2nd place in class competition.',
     githubLink: '',
     liveLink: 'https://www.youtube.com/watch?v=31X2WBa5Lyo',
     image: '/images/cs3892.png',
@@ -63,7 +63,7 @@ const projects: Project[] = [
     githubLink: 'https://github.com/MaretRudAul/FinishLine',
     liveLink: '',
     year: '2024',
-    techStack: ['React', 'Flask', 'SQL', 'Selenium']
+    techStack: ['React', 'Flask', 'SQL', 'Selenium', 'Python', 'Javascript']
   },
   {
     title: 'I am the Senate!',
@@ -101,12 +101,12 @@ const projects: Project[] = [
   // },
   
   // {
-  //   title: 'Cybersecurity Final Paper',
-  //   description: '',
+  //   title: 'SoK: Vulnerabilities in In-Vehicle Communication Protocols',
+  //   description: 'Wrote an unpublished SoK paper on vulnerabilities and defenses in in-vehicle communication protocols.',
   //   githubLink: '',
-  //   liveLink: '',
-  //   year: 'Year',
-  //   techStack: ['Tech', 'Stack']
+  //   liveLink: '', // insert link to paper publicly available on this website. 
+  //   year: '2025',
+  //   techStack: []
   // }
 ];
 
