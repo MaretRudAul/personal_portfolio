@@ -11,16 +11,7 @@ const projects: Project[] = [
     liveLink: 'https://careerclarifier.com',
     image: '/images/careerclarifier.png',
     year: '2020-Present',
-    techStack: ['Python', 'Flask', 'SQL', 'Gunicorn', 'Redis', 'WKHTMLToPDF', 'Celery', 'JS', 'Selenium', 'NGINX']
-  },
-  {
-    title: 'Autonomous Vehicle Simulation',
-    description: 'Simulated an autonomous vehicle using Dijkstra\'s for routing, pure pursuit controller + modifications for decision making, an EKF with GPU + IMU data for localization, and camrera frame bounding boxes + EKF for perception. 2nd place in class competition.',
-    githubLink: '',
-    liveLink: 'https://www.youtube.com/watch?v=31X2WBa5Lyo',
-    image: '/images/cs3892.png',
-    year: '2025',
-    techStack: ['Julia']
+    techStack: ['Flask', 'Python', 'SQL', 'Gunicorn', 'Redis', 'WKHTMLToPDF', 'Celery', 'Javascript', 'Selenium', 'NGINX']
   },
   {
     title: 'Antichess Reinforcement Learning Engine',
@@ -32,13 +23,22 @@ const projects: Project[] = [
     techStack: ['PyTorch', 'Python', 'Reinforcement Learning (Stable-Baselines3)', 'Gymnasium', 'Convolutional Neural Networks', 'Proximal Policy Optimization']
   },
   {
+    title: 'Autonomous Vehicle Simulation',
+    description: 'Simulated an autonomous vehicle using Dijkstra\'s for routing, pure pursuit controller + modifications for decision making, an EKF with GPU + IMU data for localization, and camrera frame bounding boxes + EKF for perception. 2nd place in class competition.',
+    githubLink: '',
+    liveLink: 'https://www.youtube.com/watch?v=31X2WBa5Lyo',
+    image: '/images/cs3892.png',
+    year: '2025',
+    techStack: ['Julia']
+  },
+  {
     title: 'A Guide to Time Travel',
     description: 'A website that enables users to allege that they\'ve time traveled to the past with a message from the future.',
     githubLink: 'https://github.com/MaretRudAul/Time_Travelor_Website',
     liveLink: '',
     image: '/images/a_guide_to_time_travel.png',
     year: '2024',
-    techStack: ['Typescript', 'Angular', 'Tailwind', 'Django', 'Redis', 'Docker', 'SQL', 'websockets']
+    techStack: ['Angular', 'Tailwind', 'Typescript', 'Django', 'Redis', 'Docker', 'SQL', 'websockets']
   },
   {
     title: 'The Adventurer\'s Terminal',
@@ -46,7 +46,7 @@ const projects: Project[] = [
     githubLink: 'https://github.com/MaretRudAul/The_Adventurers_Terminal',
     image: '/images/the_adventurers_terminal.png',
     year: '2025',
-    techStack: ['Python', 'OpenAI API', 'Pydantic', 'FAISS', 'sentence transformers', 'JSON']
+    techStack: ['OpenAI API', 'Python', 'Pydantic', 'FAISS', 'sentence transformers', 'JSON']
   },
   {
     title: 'Portfolio Website',
@@ -55,7 +55,7 @@ const projects: Project[] = [
     liveLink: '',
     image: '/images/portfolio_website.png',
     year: '2025',
-    techStack: ['NextJS', 'React', 'Tailwind CSS', 'TypeScript', 'Vite', 'Vercel', 'SVG'],
+    techStack: ['NextJS', 'React', 'Tailwind', 'TypeScript', 'Vite', 'Vercel', 'SVG'],
   },
   {
     title: 'FinishLine',
