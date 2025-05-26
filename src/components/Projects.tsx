@@ -51,7 +51,7 @@ const projects: Project[] = [
   {
     title: 'Portfolio Website',
     description: 'A personal portfolio website showcasing my projects and skills.',
-    githubLink: '',
+    githubLink: 'https://github.com/MaretRudAul/personal_portfolio',
     liveLink: '',
     image: '/images/portfolio_website.png',
     year: '2025',
