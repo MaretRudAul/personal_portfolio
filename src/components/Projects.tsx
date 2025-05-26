@@ -23,6 +23,15 @@ const projects: Project[] = [
     techStack: ['Julia']
   },
   {
+    title: 'Antichess Reinforcement Learning Engine',
+    description: 'Created an RL engine for the chess variant Antichess using Proximal Policy Optimization. Working on training, improvements, optimizations, and a playable UI.',
+    githubLink: 'https://github.com/MaretRudAul/antichess_engine',
+    liveLink: '',
+    image: '/images/antichess.png',
+    year: '2025',
+    techStack: ['Julia']
+  },
+  {
     title: 'A Guide to Time Travel',
     description: 'A website that enables users to allege that they\'ve time traveled to the past with a message from the future.',
     githubLink: 'https://github.com/MaretRudAul/Time_Travelor_Website',

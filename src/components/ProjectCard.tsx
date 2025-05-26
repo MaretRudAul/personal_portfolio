@@ -105,7 +105,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 rel="noopener noreferrer" 
                 className="text-xs bg-accent text-white px-2 py-1 rounded hover:bg-accent/90 transition"
               >
-                Live Demo
+                Live Project
               </a>
             )}
           </div>

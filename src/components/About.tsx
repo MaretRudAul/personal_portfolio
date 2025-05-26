@@ -11,7 +11,7 @@ const About: React.FC = () => (
         speed={80}
       />
       
-      {/* Profile Photos */}
+      {/* Profile Photo */}
       <div className="my-6 flex justify-center">
         <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-accent shadow-lg relative">
           <Image
