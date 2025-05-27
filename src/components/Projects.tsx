@@ -12,7 +12,7 @@ const projects: Project[] = [
     liveLink: 'https://careerclarifier.com',
     image: '/images/careerclarifier.png',
     year: '2020-Present',
-    techStack: ['Flask', 'Python', 'SQL', 'Gunicorn', 'Redis', 'WKHTMLToPDF', 'Celery', 'Javascript', 'Selenium', 'NGINX']
+    techStack: ['Angular', 'Flask', 'SQL', 'Gunicorn', 'Redis', 'WKHTMLToPDF', 'Celery', 'Javascript', 'Selenium', 'NGINX']
   },
   {
     title: 'Antichess Reinforcement Learning Engine',
