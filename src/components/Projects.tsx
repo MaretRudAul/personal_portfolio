@@ -47,7 +47,7 @@ const projects: Project[] = [
     liveLink: 'https://personal-portfolio-theta-jet-26.vercel.app/',
     image: '/images/portfolio_website.png',
     year: '2025, in progress',
-    techStack: ['NextJS', 'React', 'Tailwind', 'TypeScript', 'Vite', 'Vercel', 'SVG'],
+    techStack: ['Next.js', 'React', 'Tailwind', 'TypeScript', 'Vite', 'Vercel', 'SVG'],
   },
   {
     title: 'A Guide to Time Travel',
