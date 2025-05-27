@@ -272,7 +272,7 @@ const About: React.FC = () => (
           <div className="bg-white rounded-lg p-4 shadow-sm">
             <h4 className="font-medium mb-2">Web & Frameworks</h4>
             <div className="flex flex-wrap gap-2">
-              {["React", "Django", "Angular", "Flask",  "Tailwind", "Redis", "NGINX", "SQL"].map(skill => (
+              {["React", "Django", "Angular", "Flask",  "Tailwind", "NextJS", "Redis", "NGINX", "SQL"].map(skill => (
                 <span key={skill} className="bg-gray-100 px-2 py-1 rounded text-sm">
                   {skill}
                 </span>
