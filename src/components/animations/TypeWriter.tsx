@@ -1,59 +1,44 @@
-// src/components/animations/TypeWriter.tsx
 import React, { useState, useEffect } from 'react';
 
 interface TypeWriterProps {
   text: string;
+  className?: string;
   speed?: number;
   delay?: number;
-  className?: string;
 }
 
 const TypeWriter: React.FC<TypeWriterProps> = ({ 
   text, 
-  speed = 100, 
-  delay = 0,
-  className = ''
+  className = '', 
+  speed = 75,
+  delay = 0 
 }) => {
-  const [displayedText, setDisplayedText] = useState('');
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isTypingComplete, setIsTypingComplete] = useState(false);
+  const [displayText, setDisplayText] = useState('');
+  const [index, setIndex] = useState(0);
+  const [startAnimation, setStartAnimation] = useState(false);
 
   useEffect(() => {
-    if (delay > 0) {
-      const delayTimer = setTimeout(() => {
-        startTyping();
-      }, delay);
-      
-      return () => clearTimeout(delayTimer);
-    } else {
-      startTyping();
-    }
-  }, []);
-
-  const startTyping = () => {
-    const typingInterval = setInterval(() => {
-      if (currentIndex < text.length) {
-        setDisplayedText(prev => prev + text[currentIndex]);
-        setCurrentIndex(prevIndex => prevIndex + 1);
-      } else {
-        clearInterval(typingInterval);
-        // Set typing complete to true - this will hide the cursor
-        setIsTypingComplete(true);
-      }
-    }, speed);
+    const delayTimeout = setTimeout(() => {
+      setStartAnimation(true);
+    }, delay);
     
-    return () => clearInterval(typingInterval);
-  };
+    return () => clearTimeout(delayTimeout);
+  }, [delay]);
 
-  return (
-    <span className={className}>
-      {displayedText}
-      {/* Only show cursor when typing is not complete */}
-      {!isTypingComplete && (
-        <span className="animate-blink">|</span>
-      )}
-    </span>
-  );
+  useEffect(() => {
+    if (!startAnimation) return;
+    
+    if (index < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayText(current => current + text.charAt(index));
+        setIndex(index + 1);
+      }, speed);
+      
+      return () => clearTimeout(timeout);
+    }
+  }, [index, text, speed, startAnimation]);
+
+  return <span className={className}>{displayText}<span className="animate-pulse">|</span></span>;
 };
 
 export default TypeWriter;

@@ -5,6 +5,7 @@ import TypeWriter from './animations/TypeWriter';
 import { Project } from '../types/project';
 
 const projects: Project[] = [
+  // Might be a good idea to add a "category" to these projects. Like web dev, machine learning, autonomous vehicles, cybersecurity, software dev, etc.
   {
     title: 'Career Clarifier',
     description: 'An online business that helps college students and graduates identify their best career options.',
@@ -19,17 +20,34 @@ const projects: Project[] = [
     githubLink: 'https://github.com/MaretRudAul/antichess_engine',
     liveLink: '',
     image: '/images/antichess.png',
-    year: '2025',
+    year: '2025, in progress',
     techStack: ['PyTorch', 'Reinforcement Learning (Stable-Baselines3)', 'Gymnasium', 'Convolutional Neural Networks', 'Proximal Policy Optimization', 'Python', ]
   },
   {
     title: 'Autonomous Vehicle Simulation',
-    description: 'Simulated an autonomous vehicle using Dijkstra\'s for routing, a modified pure pursuit controller, an EKF with GPU + IMU data for localization, and camrera frame bounding boxes + EKF for perception. 2nd place in class competition.',
+    description: 'Simulated an autonomous vehicle using Dijkstra\'s for routing, a modified pure pursuit controller, an EKF with GPU + IMU data for localization, and camera frame bounding boxes + EKF for perception. 2nd place in class competition.',
     githubLink: '',
     liveLink: 'https://www.youtube.com/watch?v=31X2WBa5Lyo',
     image: '/images/cs3892.png',
     year: '2025',
     techStack: ['Julia']
+  },
+  // {
+  //   title: 'SoK: Vulnerabilities in In-Vehicle Communication Protocols',
+  //   description: 'Wrote an unpublished SoK paper on vulnerabilities and defenses in in-vehicle communication protocols.',
+  //   githubLink: '',
+  //   liveLink: '', // insert link to paper publicly available on this website. 
+  //   year: '2025',
+  //   techStack: []
+  // }
+  {
+    title: 'Portfolio Website',
+    description: 'A personal portfolio website showcasing my projects and skills.',
+    githubLink: 'https://github.com/MaretRudAul/personal_portfolio',
+    liveLink: 'https://personal-portfolio-theta-jet-26.vercel.app/',
+    image: '/images/portfolio_website.png',
+    year: '2025, in progress',
+    techStack: ['NextJS', 'React', 'Tailwind', 'TypeScript', 'Vite', 'Vercel', 'SVG'],
   },
   {
     title: 'A Guide to Time Travel',
@@ -47,15 +65,6 @@ const projects: Project[] = [
     image: '/images/the_adventurers_terminal.png',
     year: '2025',
     techStack: ['OpenAI API', 'Python', 'Pydantic', 'FAISS', 'sentence transformers', 'JSON']
-  },
-  {
-    title: 'Portfolio Website',
-    description: 'A personal portfolio website showcasing my projects and skills.',
-    githubLink: 'https://github.com/MaretRudAul/personal_portfolio',
-    liveLink: '',
-    image: '/images/portfolio_website.png',
-    year: '2025',
-    techStack: ['NextJS', 'React', 'Tailwind', 'TypeScript', 'Vite', 'Vercel', 'SVG'],
   },
   {
     title: 'FinishLine',
@@ -99,15 +108,6 @@ const projects: Project[] = [
   //   year: 'Year',
   //   techStack: ['Tech', 'Stack']
   // },
-  
-  // {
-  //   title: 'SoK: Vulnerabilities in In-Vehicle Communication Protocols',
-  //   description: 'Wrote an unpublished SoK paper on vulnerabilities and defenses in in-vehicle communication protocols.',
-  //   githubLink: '',
-  //   liveLink: '', // insert link to paper publicly available on this website. 
-  //   year: '2025',
-  //   techStack: []
-  // }
 ];
 
 const Projects: React.FC = () => {
