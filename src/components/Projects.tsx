@@ -24,6 +24,15 @@ const projects: Project[] = [
     techStack: ['PyTorch', 'Reinforcement Learning (Stable-Baselines3)', 'Gymnasium', 'Convolutional Neural Networks', 'Proximal Policy Optimization', 'Python', ]
   },
   {
+    title: 'Portfolio Website',
+    description: 'A personal portfolio website showcasing my projects and skills.',
+    githubLink: 'https://github.com/MaretRudAul/personal_portfolio',
+    liveLink: 'https://personal-portfolio-theta-jet-26.vercel.app/',
+    image: '/images/portfolio_website.png',
+    year: '2025, in progress',
+    techStack: ['Next.js', 'React', 'Tailwind', 'TypeScript', 'Vite', 'Vercel', 'SVG'],
+  },
+  {
     title: 'Autonomous Vehicle Simulation',
     description: 'Simulated an autonomous vehicle using Dijkstra\'s for routing, a modified pure pursuit controller, an EKF with GPU + IMU data for localization, and camera frame bounding boxes + EKF for perception. 2nd place in class competition.',
     githubLink: '',
@@ -40,15 +49,6 @@ const projects: Project[] = [
   //   year: '2025',
   //   techStack: []
   // }
-  {
-    title: 'Portfolio Website',
-    description: 'A personal portfolio website showcasing my projects and skills.',
-    githubLink: 'https://github.com/MaretRudAul/personal_portfolio',
-    liveLink: 'https://personal-portfolio-theta-jet-26.vercel.app/',
-    image: '/images/portfolio_website.png',
-    year: '2025, in progress',
-    techStack: ['Next.js', 'React', 'Tailwind', 'TypeScript', 'Vite', 'Vercel', 'SVG'],
-  },
   {
     title: 'A Guide to Time Travel',
     description: 'A website that enables users to allege that they\'ve time traveled to the past with a message from the future.',
