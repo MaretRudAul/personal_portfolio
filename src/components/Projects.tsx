@@ -59,20 +59,20 @@ const projects: Project[] = [
     techStack: ['Angular', 'Tailwind', 'Typescript', 'Django', 'Redis', 'Docker', 'SQL', 'websockets']
   },
   {
-    title: 'The Adventurer\'s Terminal',
-    description: 'An immersive, text-based RPG experience powered by AI that lets you create characters, explore worlds, and forge your own adventure narrative.',
-    githubLink: 'https://github.com/MaretRudAul/The_Adventurers_Terminal',
-    image: '/images/the_adventurers_terminal.png',
-    year: '2025',
-    techStack: ['OpenAI API', 'Python', 'Pydantic', 'FAISS', 'sentence transformers', 'JSON']
-  },
-  {
     title: 'FinishLine',
     description: 'A website that scrapes anchorlink.vanderbilt.edu daily to compile and present career opportunities for students.',
     githubLink: 'https://github.com/MaretRudAul/FinishLine',
     liveLink: '',
     year: '2024',
     techStack: ['React', 'Flask', 'SQL', 'Selenium', 'Python', 'Javascript']
+  },
+  {
+    title: 'The Adventurer\'s Terminal',
+    description: 'An immersive, text-based RPG experience powered by AI that lets you create characters, explore worlds, and forge your own adventure narrative.',
+    githubLink: 'https://github.com/MaretRudAul/The_Adventurers_Terminal',
+    image: '/images/the_adventurers_terminal.png',
+    year: '2025',
+    techStack: ['OpenAI API', 'Python', 'Pydantic', 'FAISS', 'sentence transformers', 'JSON']
   },
   {
     title: 'I am the Senate!',
