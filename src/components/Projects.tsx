@@ -24,6 +24,15 @@ const projects: Project[] = [
     techStack: ['PyTorch', 'Reinforcement Learning (Stable-Baselines3)', 'Gymnasium', 'Convolutional Neural Networks', 'Proximal Policy Optimization', 'Python', ]
   },
   {
+    title: 'Player Hater Pro',
+    description: 'A tool for generating insults based on player stats in professional sports leagues.',
+    githubLink: 'https://github.com/MaretRudAul/player-hater-pro',
+    // liveLink: 'https://personal-portfolio-theta-jet-26.vercel.app/',
+    image: '/images/player_hater_pro.png',
+    year: '2025, in progress',
+    techStack: ['Next.js', 'React', 'Tailwind', 'TypeScript', 'Redis', 'OpenAI API', 'SWR'],
+  },
+  {
     title: 'Portfolio Website',
     description: 'A personal portfolio website showcasing my projects and skills.',
     githubLink: 'https://github.com/MaretRudAul/personal_portfolio',
